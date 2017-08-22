@@ -6,20 +6,17 @@
 //  Copyright © 2017 Artur Honzawa. All rights reserved.
 //
 
+import Adyen
 import UIKit
+
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    @IBAction func openCheckoutViewController(_ sender: Any) {
+        print("openCheckoutViewController")
+        let checkoutViewController = CheckoutViewController(delegate: CheckoutViewControllerDelegateImplementation())
+        present(checkoutViewController, animated: true)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 
 }
 

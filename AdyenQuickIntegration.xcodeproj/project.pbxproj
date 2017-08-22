@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		59C309AF960A85F40A73CBD4 /* Pods_AdyenQuickIntegration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB88AB05276D3796F41582E /* Pods_AdyenQuickIntegration.framework */; };
 		752F31CD1F4C22A2003B164C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752F31CC1F4C22A2003B164C /* AppDelegate.swift */; };
 		752F31CF1F4C22A2003B164C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752F31CE1F4C22A2003B164C /* ViewController.swift */; };
 		752F31D21F4C22A2003B164C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 752F31D01F4C22A2003B164C /* Main.storyboard */; };
 		752F31D41F4C22A2003B164C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 752F31D31F4C22A2003B164C /* Assets.xcassets */; };
 		752F31D71F4C22A2003B164C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 752F31D51F4C22A2003B164C /* LaunchScreen.storyboard */; };
+		75EC4C821F4C23E10005A860 /* CheckoutViewControllerDelegateImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EC4C811F4C23E10005A860 /* CheckoutViewControllerDelegateImplementation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		063B6F80B7F81716D145C86B /* Pods-AdyenQuickIntegration.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdyenQuickIntegration.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdyenQuickIntegration/Pods-AdyenQuickIntegration.release.xcconfig"; sourceTree = "<group>"; };
 		752F31C91F4C22A2003B164C /* AdyenQuickIntegration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdyenQuickIntegration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		752F31CC1F4C22A2003B164C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		752F31CE1F4C22A2003B164C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,9 @@
 		752F31D31F4C22A2003B164C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		752F31D61F4C22A2003B164C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		752F31D81F4C22A2003B164C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75EC4C811F4C23E10005A860 /* CheckoutViewControllerDelegateImplementation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckoutViewControllerDelegateImplementation.swift; sourceTree = "<group>"; };
+		AAB88AB05276D3796F41582E /* Pods_AdyenQuickIntegration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdyenQuickIntegration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDD436912ADCCBE1BF564370 /* Pods-AdyenQuickIntegration.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdyenQuickIntegration.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AdyenQuickIntegration/Pods-AdyenQuickIntegration.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59C309AF960A85F40A73CBD4 /* Pods_AdyenQuickIntegration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		002E5FD4D84BED8991D6CDD6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BDD436912ADCCBE1BF564370 /* Pods-AdyenQuickIntegration.debug.xcconfig */,
+				063B6F80B7F81716D145C86B /* Pods-AdyenQuickIntegration.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		752F31C01F4C22A2003B164C = {
 			isa = PBXGroup;
 			children = (
 				752F31CB1F4C22A2003B164C /* AdyenQuickIntegration */,
 				752F31CA1F4C22A2003B164C /* Products */,
+				002E5FD4D84BED8991D6CDD6 /* Pods */,
+				E72DA14A51F77BA1FADB754C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +78,17 @@
 				752F31D31F4C22A2003B164C /* Assets.xcassets */,
 				752F31D51F4C22A2003B164C /* LaunchScreen.storyboard */,
 				752F31D81F4C22A2003B164C /* Info.plist */,
+				75EC4C811F4C23E10005A860 /* CheckoutViewControllerDelegateImplementation.swift */,
 			);
 			path = AdyenQuickIntegration;
+			sourceTree = "<group>";
+		};
+		E72DA14A51F77BA1FADB754C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAB88AB05276D3796F41582E /* Pods_AdyenQuickIntegration.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 752F31DB1F4C22A2003B164C /* Build configuration list for PBXNativeTarget "AdyenQuickIntegration" */;
 			buildPhases = (
+				1729EB4137EA66C3DCA02C9F /* [CP] Check Pods Manifest.lock */,
 				752F31C51F4C22A2003B164C /* Sources */,
 				752F31C61F4C22A2003B164C /* Frameworks */,
 				752F31C71F4C22A2003B164C /* Resources */,
+				9699FF857FDF61B2980CF7C3 /* [CP] Embed Pods Frameworks */,
+				71E922551074372964F50E3D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,11 +162,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1729EB4137EA66C3DCA02C9F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AdyenQuickIntegration-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71E922551074372964F50E3D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AdyenQuickIntegration/Pods-AdyenQuickIntegration-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9699FF857FDF61B2980CF7C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AdyenQuickIntegration/Pods-AdyenQuickIntegration-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Adyen/Adyen.framework",
+				"${BUILT_PRODUCTS_DIR}/AdyenCSE/AdyenCSE.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Adyen.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AdyenCSE.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AdyenQuickIntegration/Pods-AdyenQuickIntegration-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		752F31C51F4C22A2003B164C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75EC4C821F4C23E10005A860 /* CheckoutViewControllerDelegateImplementation.swift in Sources */,
 				752F31CF1F4C22A2003B164C /* ViewController.swift in Sources */,
 				752F31CD1F4C22A2003B164C /* AppDelegate.swift in Sources */,
 			);
@@ -261,6 +348,7 @@
 		};
 		752F31DC1F4C22A2003B164C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDD436912ADCCBE1BF564370 /* Pods-AdyenQuickIntegration.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = M3K2NY463T;
@@ -274,6 +362,7 @@
 		};
 		752F31DD1F4C22A2003B164C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 063B6F80B7F81716D145C86B /* Pods-AdyenQuickIntegration.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = M3K2NY463T;
@@ -304,6 +393,7 @@
 				752F31DD1F4C22A2003B164C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

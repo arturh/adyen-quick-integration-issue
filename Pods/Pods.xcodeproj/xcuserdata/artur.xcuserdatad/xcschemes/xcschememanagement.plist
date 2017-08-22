@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Adyen-Cards.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Adyen-CoreUI.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Adyen.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>AdyenCSE.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-AdyenQuickIntegration.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>24681A601294BF675C50801714E50B87</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>72271C04D094979CF7B46EBA17FEAB74</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9EA7C8C310986311379C17D32286726A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>ECA017CBA6A1B8F7CDE43913AA019752</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EEDCDE56E530574AC5ABBB6B889F45F5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
